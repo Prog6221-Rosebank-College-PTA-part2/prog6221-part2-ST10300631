@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\chatbot demo\\chatbot\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\chatbot demo\\chatbot\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\chatbot demo\\chatbot\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\chatbot demo\\chatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\chatbot demo\\chatbot\\about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T10:51:21.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\Game.xaml.cs",
+              "RelativeDocumentMoniker": "Game.xaml.cs",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\Game.xaml.cs",
+              "RelativeToolTip": "Game.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA0wBIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:52:37.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T16:26:46.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T15:00:53.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.xaml",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\About.xaml",
+              "RelativeDocumentMoniker": "About.xaml",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\chatbot demo\\Chatbot\\About.xaml",
+              "RelativeToolTip": "About.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T20:49:03.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
