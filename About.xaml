@@ -1,0 +1,44 @@
+﻿<Page x:Class="Chatbot.About"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Chatbot"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="About">
+
+    <Grid Background="LightBlue">
+        <!-- TextBlock configured for ASCII art -->
+        <StackPanel Margin="20"  >
+            <TextBlock x:Name="AsciiDisplay"
+    FontFamily="Consolas" 
+    FontSize="14"
+    Foreground="Black"
+    FontWeight="Bold"
+    TextWrapping="NoWrap"
+    HorizontalAlignment="Center" 
+    VerticalAlignment="Center"
+          
+    />
+
+
+ 
+    
+
+
+ <TextBlock Margin="10" Padding="30"  TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="22" >
+ A comprehensive bot designed to educate users and teams about cybersecurity best practices,threats, and defensive strategies through interactive engagement and real-time alerts.<LineBreak/>               
+-- Cybersecurity awareness is the knowledge and proactive attitude individuals possess to recognize, avoid, and report digital threats, protecting personal and organizational data.<LineBreak/>
+-- The Bot is an intelligent automation tool that promotes cybersecurity awareness within organizations. <LineBreak/>
+-- It delivers educational content, simulates phishing attacks, monitors security incidents, and provides real-time guidance on security best practices.
+</TextBlock> 
+                           
+           
+           
+           
+            
+            
+        </StackPanel>
+    </Grid>
+</Page>
