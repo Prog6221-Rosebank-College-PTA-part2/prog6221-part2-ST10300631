@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+    <None Remove="Background\Matrix Raining Code.mp4" />
+    <None Remove="Font Awesome 7 Free Solid.otf" />
+    <None Remove="Images\cyber-security-bot-line-icon-vector.jpg" />
+    <None Remove="Images\work-in-progress.png" />
+    <None Remove="Sounds\Constrution sound.wav" />
+    <None Remove="Sounds\My voice.wav" />
+    <None Remove="Sounds\sonic_ring_sound_effect.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sounds\Constrution sound.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\My voice.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\sonic_ring_sound_effect.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Background\Matrix Raining Code.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Font Awesome 7 Free Solid.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\work-in-progress.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Images\cyber-security-bot-line-icon-vector.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
+    <PackageReference Include="Microsoft.ML" Version="5.0.0" />
+    <PackageReference Include="Microsoft.ML.DataView" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
