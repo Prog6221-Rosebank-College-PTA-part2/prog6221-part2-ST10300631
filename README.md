@@ -31,5 +31,5 @@ A responsive, NLP-powered chatbot designed to help users manage cybersecurity ta
 * Exports logs for security compliance reviews.
 
 ------------------------------
-To help tailor this repository, tell me if you want to add installation steps, specific code prerequisites, or a technologies used section. Let me know how you would like to proceed.
+
 
