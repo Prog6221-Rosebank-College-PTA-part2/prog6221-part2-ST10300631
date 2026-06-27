@@ -52,8 +52,8 @@ jobs:
     runs-on: windows-latest 
 
     env:
-      Solution_Name: Chatbot.sln
-      Project_Name: Chatbot.csproj
+      Solution_Name: Chatbot/Chatbot.sln
+      Project_Name: Chatbot/Chatbot.csproj 
 
     steps:
     - name: Checkout
