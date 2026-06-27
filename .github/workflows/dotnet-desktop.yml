@@ -52,10 +52,10 @@ jobs:
     runs-on: windows-latest 
 
     env:
-      Solution_Name: your-solution-name # Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: your-test-project-path # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: your-wap-project-directory-name # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: your-wap-project-path # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Solution_Name: Chatbot.sln 
+      Test_Project_Path: Chatbot.Tests\Chatbot.Tests.csproj # Targeted the actual test project file, not the .user file
+      Wap_Project_Directory: Chatbot.Package # The folder name holding your packaging configuration
+      Wap_Project_Path: Chatbot.Package\Chatbot.Package.wapproj # The actual path to the WAP project file
 
     steps:
     - name: Checkout
