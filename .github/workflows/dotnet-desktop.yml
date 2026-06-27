@@ -63,7 +63,7 @@ jobs:
         dotnet-version: 8.0.x 
 
     - name: Restore dependencies
-      run: dotnet restore Chatbot/Chatbot.sln
+      run: dotnet restore Chatbot/Chatbot.csproj
 
     - name: Build the project
       run: dotnet build Chatbot/Chatbot.csproj --configuration ${{ matrix.configuration }} --no-restore
