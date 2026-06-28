@@ -75,13 +75,7 @@
 
 
 
-    <!--
-        <Button>
-        <TextBlock Text="Saved" />
-    </Button>
-    <TextBlock x:Name="AsciiDisplay" FontFamily="Consolas" FontSize="14" Foreground="White" FontWeight="Bold" TextWrapping="NoWrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-        -->
+   
 
 
     </Grid>

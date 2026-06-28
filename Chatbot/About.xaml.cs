@@ -14,7 +14,7 @@ namespace Chatbot
     /// </summary>
     public partial class About : Page
     {
-        string connectionString = @"Sever=(localDB)\MSSQLLOCALDB;Database=TaskAsisstant;Trusted Connection=True";
+        string connectionString = @"Sever=(localDB)\MSSQLLOCALDB;Database=TaskAsisstant;TrustedConnection=True";
         string step = "";
         string pendingTitle = "";
         string pendingDescription = "";

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fmNmQSkNqXA=",
+  "dgSpecHash": "d18AsA5rKZY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\Chatbot.csproj",
+  "projectFilePath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Chatbot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.4\\microsoft.bcl.asyncinterfaces.9.0.4.nupkg.sha512",
     "C:\\Users\\rafik\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",

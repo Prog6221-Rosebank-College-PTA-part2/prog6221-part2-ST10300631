@@ -1,12 +1,155 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\about.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:about.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\cardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:cardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\cardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:cardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\bot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:bot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|c:\\users\\rafik\\onedrive - university of south africa\\desktop\\prog6221-part3-st10300631\\chatbot\\sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{10AADC2F-7E8F-45BE-B3D4-04FC5D44EE3A}|Chatbot.csproj|solutionrelative:sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "SQLQuery2.sql",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\SQLQuery2.sql",
+              "RelativeToolTip": "SQLQuery2.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-28T19:38:21.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bot.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Bot.xaml.cs",
+              "RelativeDocumentMoniker": "Bot.xaml.cs",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Bot.xaml.cs",
+              "RelativeToolTip": "Bot.xaml.cs",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:21:23.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\CardView.xaml.cs",
+              "RelativeDocumentMoniker": "CardView.xaml.cs",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\CardView.xaml.cs",
+              "RelativeToolTip": "CardView.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T18:17:41.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardView.xaml",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\CardView.xaml",
+              "RelativeDocumentMoniker": "CardView.xaml",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\CardView.xaml",
+              "RelativeToolTip": "CardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T18:17:05.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Game.xaml.cs",
+              "RelativeDocumentMoniker": "Game.xaml.cs",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Game.xaml.cs",
+              "RelativeToolTip": "Game.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T18:15:37.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T18:15:07.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\About.xaml.cs",
+              "RelativeDocumentMoniker": "About.xaml.cs",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\About.xaml.cs",
+              "RelativeToolTip": "About.xaml.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAABAAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T18:10:17.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "About.xaml",
+              "DocumentMoniker": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\About.xaml",
+              "RelativeDocumentMoniker": "About.xaml",
+              "ToolTip": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\About.xaml",
+              "RelativeToolTip": "About.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T18:10:04.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\Chatbot.csproj": {}
+    "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Chatbot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\Chatbot.csproj": {
+    "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Chatbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\Chatbot.csproj",
+        "projectUniqueName": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Chatbot.csproj",
         "projectName": "Chatbot",
-        "projectPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\Chatbot.csproj",
+        "projectPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\Chatbot.csproj",
         "packagesPath": "C:\\Users\\rafik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part2-ST10300631\\Chatbot\\obj\\",
+        "outputPath": "C:\\Users\\rafik\\OneDrive - University of South Africa\\Desktop\\prog6221-part3-ST10300631\\Chatbot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

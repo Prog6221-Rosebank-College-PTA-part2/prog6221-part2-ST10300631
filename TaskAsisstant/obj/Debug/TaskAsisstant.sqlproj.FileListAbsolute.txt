@@ -8,5 +8,9 @@ C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10
 C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\bin\Debug\TaskAsisstant.dll
 C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\bin\Debug\TaskAsisstant.pdb
 C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\TaskAsisstant.sqlproj.AssemblyReference.cache
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\Model.xml
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\refactor.xml
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\postdeploy.sql
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\predeploy.sql
 C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\TaskAsisstant.dll
 C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\TaskAsisstant.pdb
