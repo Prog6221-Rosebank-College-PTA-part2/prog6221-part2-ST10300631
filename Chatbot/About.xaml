@@ -8,35 +8,80 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="About">
 
-    <Grid>
-        
+
+
+
+    <Grid Background="Gray">
+        <!-- Background Video Layer -->
         <MediaElement x:Name="BackgroundVideo" 
-                      Source="Backgrounds/live_bg.mp4" 
-                      LoadedBehavior="Manual" 
-                      UnloadedBehavior="Manual" 
-                      Stretch="UniformToFill" 
-                      IsMuted="True"
-                      MediaEnded="BackgroundVideo_MediaEnded"/>
+                  Source="Background/Matrix Raining Code.mp4" 
+                  LoadedBehavior="Manual" 
+                  UnloadedBehavior="Manual" 
+                  Stretch="UniformToFill" 
+                  IsMuted="True" 
+                  MediaEnded="BackgroundVideo_MediaEnded"/>
 
-            <!-- Your App UI Layer Goes Here -->
-        <Grid Background="#55000000">
+        <!-- App UI Layer -->
+        <Grid Background="#55000000" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Background="White" Width="800" Height="650" CornerRadius="8" Padding="30">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
 
-            <Grid  Background="White" Width="800" Height="450" Margin="15">
-                <!-- TextBlock configured for ASCII art -->
-   
+                    <!-- Header -->
+                    <TextBlock Grid.Row="0" 
+                           Text="Task Assist" 
+                           FontSize="24" 
+                           FontWeight="Bold" 
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,20"/>
 
-                <TextBlock Margin="10" Padding="30"  TextWrapping="Wrap"  Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" FontSize="22" >
- 
-                </TextBlock>
+                    <!-- Lists Container -->
+                    <Grid Grid.Row="1" Margin="0,0,0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
 
-            </Grid>
-            <TextBlock x:Name="AsciiDisplay" FontFamily="Consolas" FontSize="14" Foreground="White" FontWeight="Bold" TextWrapping="NoWrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <ListBox Grid.Column="0" x:Name="lstTask"/>
+                        <ListBox Grid.Column="2" x:Name="lstTask2"/>
+                    </Grid>
 
+                    <!-- Input Field -->
+                    <TextBox Grid.Row="2" 
+                         x:Name="txtinput" 
+                         Padding="8" 
+                         Width="400" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,0,0,15"/>
+
+                    <!-- Action Button -->
+                    <Button Grid.Row="3" 
+                        x:Name="btnAdd" 
+                        Content="Add Task" 
+                        Padding="10,5"
+                        Width="150" 
+                        HorizontalAlignment="Center" 
+                        Click="btnAdd_Click"/>
+                </Grid>
+            </Border>
         </Grid>
+    
 
 
-        
 
+    <!--
+        <Button>
+        <TextBlock Text="Saved" />
+    </Button>
+    <TextBlock x:Name="AsciiDisplay" FontFamily="Consolas" FontSize="14" Foreground="White" FontWeight="Bold" TextWrapping="NoWrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        -->
 
 
     </Grid>

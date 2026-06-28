@@ -11,8 +11,12 @@
   <ItemGroup>
     <None Remove="Background\Matrix Raining Code.mp4" />
     <None Remove="Font Awesome 7 Free Solid.otf" />
-    <None Remove="Images\cyber-security-bot-line-icon-vector.jpg" />
-    <None Remove="Images\work-in-progress.png" />
+    <None Remove="Images\dns-spoofing.png" />
+    <None Remove="Images\password-cracking.png" />
+    <None Remove="Images\phishing-attacks.png" />
+    <None Remove="Images\privacy.png" />
+    <None Remove="Images\scam call.jpg" />
+    <None Remove="Images\SQL injection.png" />
     <None Remove="Sounds\Constrution sound.wav" />
     <None Remove="Sounds\My voice.wav" />
     <None Remove="Sounds\sonic_ring_sound_effect.wav" />
@@ -37,12 +41,24 @@
     <Resource Include="Font Awesome 7 Free Solid.otf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\work-in-progress.png">
+    <Resource Include="Images\dns-spoofing.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Content Include="Images\cyber-security-bot-line-icon-vector.jpg">
+    <Resource Include="Images\password-cracking.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </Resource>
+    <Resource Include="Images\phishing-attacks.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\privacy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\scam call.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\SQL injection.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>

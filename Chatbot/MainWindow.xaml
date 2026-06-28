@@ -103,7 +103,7 @@
             <Button  Width="100" Click="TAssist_Click">
                 <StackPanel Orientation="Horizontal">
                     <!-- Text -->
-                    <TextBlock Text="Task Assistant" />
+                    <TextBlock Text="AddTask" />
                     <!-- Icon: Ensure the image is added to your project and "Build Action" is set to "Resource" -->
                     <TextBlock Text="&#xf05a;" FontFamily="./#Font Awesome 7 Free Solid"  VerticalAlignment="Center" Margin="5"/>
                 </StackPanel>

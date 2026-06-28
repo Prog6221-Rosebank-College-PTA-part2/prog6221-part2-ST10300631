@@ -9,30 +9,67 @@
       Title="HomePage" Background="Gray">
 
 
-    <Grid  HorizontalAlignment="Center" VerticalAlignment="Center" >
+    <Grid>
+        <!-- Background Video spans the whole screen -->
+        <MediaElement x:Name="BackgroundVideo" 
+                  Source="Background/Matrix Raining Code.mp4" 
+                  LoadedBehavior="Manual" 
+                  UnloadedBehavior="Manual" 
+                  Stretch="UniformToFill" 
+                  IsMuted="True"
+                  MediaEnded="BackgroundVideo_MediaEnded"/>
 
-        <MediaElement  x:Name="BackgroundVideo" 
-      Source="Background/Matrix Raining Code.mp4" 
-      LoadedBehavior="Manual" 
-      UnloadedBehavior="Manual" 
-      Stretch="UniformToFill" 
-      IsMuted="True"
-      MediaEnded="BackgroundVideo_MediaEnded"/>
-
-        <!-- Your App UI Layer Goes Here -->
+        <!-- Dark Overlay UI Layer -->
         <Grid Background="#55000000">
-          
-            
-            <Image Source="Images/cyber-security-bot-line-icon-vector.jpg" />
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
 
+            <!-- 1. Scrollable Gallery Area -->
+            <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" Margin="20">
+                <!-- WrapPanel automatically pushes cards to the next row when space runs out -->
+                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
 
-            <StackPanel Width="130" Orientation="Vertical" Margin="30" VerticalAlignment="Bottom" >
-                <Button Name="btnstr" Click="Btnstr_Click">Start</Button>
+                    <local:CardView Margin="10" Width="350"
+                                CardTitle="DNS-Spoofing" 
+                                CardDescription="Is where hacker alter the Domain Name System" 
+                                CardImageSource="/Images/dns-spoofing.png" />
 
+                    <local:CardView Margin="10" Width="350"
+                                CardTitle="phishing-attack" 
+                                CardDescription="Is a social engineering scam." 
+                                CardImageSource="/Images/phishing-attacks.png" />
 
+                    <local:CardView Margin="10" Width="350"
+                                CardTitle="Password-cracking" 
+                                CardDescription="Is the process of recovering plaintext passwords." 
+                                CardImageSource="/Images/password-cracking.png" />
+
+                    <local:CardView Margin="10" Width="350"
+                                CardTitle="SQL injection" 
+                                CardDescription="This allows unauthorized individuals to view restricted data." 
+                                CardImageSource="/Images/SQL injection.png" />
+
+                    <local:CardView Margin="10" Width="350"
+                                CardTitle="Scam-call" 
+                                CardDescription="fraudsters impersonate legitimate organizations." 
+                                CardImageSource="/Images/scam call.jpg" />
+
+                    <local:CardView Margin="10" Width="350"
+                                CardTitle="Privacy" 
+                                CardDescription="The fundamental right to be left alone." 
+                                CardImageSource="/Images/privacy.png" />
+
+                </WrapPanel>
+            </ScrollViewer>
+
+            <!-- 2. Bottom Control Area -->
+            <StackPanel Grid.Row="1" Width="130" Margin="0,0,0,30" HorizontalAlignment="Center">
+                <Button Name="btnstr" Click="Btnstr_Click" Padding="10,5">Start</Button>
             </StackPanel>
         </Grid>
     </Grid>
-    
-   
+
+
 </Page>

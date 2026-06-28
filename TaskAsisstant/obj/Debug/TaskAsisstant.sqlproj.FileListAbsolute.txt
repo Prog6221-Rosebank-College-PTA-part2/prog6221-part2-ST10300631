@@ -1,0 +1,12 @@
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\TaskAsisstant\bin\Debug\TaskAsisstant.dacpac
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\TaskAsisstant\bin\Debug\TaskAsisstant.dll
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\TaskAsisstant\bin\Debug\TaskAsisstant.pdb
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\TaskAsisstant\obj\Debug\TaskAsisstant.sqlproj.AssemblyReference.cache
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\TaskAsisstant\obj\Debug\TaskAsisstant.dll
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\TaskAsisstant\obj\Debug\TaskAsisstant.pdb
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\bin\Debug\TaskAsisstant.dacpac
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\bin\Debug\TaskAsisstant.dll
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\bin\Debug\TaskAsisstant.pdb
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\TaskAsisstant.sqlproj.AssemblyReference.cache
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\TaskAsisstant.dll
+C:\Users\rafik\OneDrive - University of South Africa\Desktop\prog6221-part2-ST10300631\TaskAsisstant\obj\Debug\TaskAsisstant.pdb

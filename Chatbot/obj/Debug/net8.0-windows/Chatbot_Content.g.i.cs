@@ -12,6 +12,5 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/my%20voice.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/sonic_ring_sound_effect.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("background/matrix%20raining%20code.mp4")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/cyber-security-bot-line-icon-vector.jpg")]
 
 

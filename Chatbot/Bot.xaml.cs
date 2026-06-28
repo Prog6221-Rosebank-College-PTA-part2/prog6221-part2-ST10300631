@@ -40,12 +40,7 @@ namespace Chatbot
             {"happy","Wow you must be having a nice day"},
             {"sad","Cheer up it's not the end of the world" },
             {"worried","I'm sorry to hear that gang" },
-            {"im good","Nice to hear that"},
-            {"im bad","Cheer up im here for you"},
-            {"im okay","Cool"},
-            {"im happy","Wow you must be having a nice day"},
-            {"im sad","Cheer up its not the end of the world" },
-            {"im worried","I'm sorry to hear that gang" }
+           
         };
 
         private readonly List<string> _fallbacks = new List<string>
@@ -80,7 +75,7 @@ namespace Chatbot
         };
 
 
-        string connectionString = @"Sever=(localDB)\MSSQLLOCALDB;Database=ClinetDatabase;Integrated Security=True;TrustServerCertificate=False;";
+        
 
 
         public Bot()
@@ -108,30 +103,7 @@ namespace Chatbot
             private async void OnButtonClick(object sender, RoutedEventArgs e)
 
         {
-            if(_userName ==txtMessage.Text)
-            {
-                MessageBox.Show($"Hello data saved");
-                return;
-            }
-            try
-            {
-           using(SqlConnection conn = new SqlConnection(connectionString))
-                {
-                    
-                    conn.Open();
-                    string sql = @"INSERT INTO dbo.Data(Name),Values(@Name)";
-                    SqlCommand cmd = new SqlCommand(sql, conn);
-                    cmd.Parameters.AddWithValue("@Name", txtMessage.Text);
-                    cmd.ExecuteNonQuery();
-                }
-                MessageBox.Show("saved all the data");
-                txtMessage.Clear();
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show("Unable to save this data!!! " + ex.Message);
-            }
-
+            
             string cleanInput = txtMessage.Text.Trim();
 
             if (string.IsNullOrWhiteSpace(cleanInput))
@@ -188,13 +160,16 @@ namespace Chatbot
         {
             Random random = new Random();
 
+            // SIMPLE NLP: Clean the punctuation and convert to lowercase for easier matching
+            string normalizedInput = CleanInputForNLP(input);
+
             switch (_currentState)
             {
                 case ChatState.AwaitingName:
                     if (!string.IsNullOrWhiteSpace(input))
                     {
-                        _userName = input;
-                       
+                        // Simple NLP: Strip out "my name is" or "i am" if the user typed a full sentence
+                        _userName = ExtractName(normalizedInput, input);
                     }
                     AddBotMessage($"Lets begin {_userName}");
                     AddBotMessage($"{_botName}: Hi?");
@@ -203,8 +178,12 @@ namespace Chatbot
                     break;
 
                 case ChatState.AwaitingMood:
-                    if (_moodResponses.TryGetValue(input, out string feedback))
+                    // Simple NLP: Find if any key mood word exists in the user's sentence
+                    string matchedMood = _moodResponses.Keys.FirstOrDefault(mood => normalizedInput.Contains(mood)) ?? string.Empty;
+
+                    if (!string.IsNullOrEmpty(matchedMood))
                     {
+                        string feedback = _moodResponses[matchedMood];
                         AddBotMessage($"{_botName}: {feedback}");
                         AddBotMessage($"{_botName}: {_userName}! Ask me anything about password safety, phishing, scams, and privacy. Type 'exit' to end program.");
                         _currentState = ChatState.AnsweringTopics;
@@ -218,12 +197,10 @@ namespace Chatbot
                     break;
 
                 case ChatState.AnsweringTopics:
-                    // NEW: Check if the user typed a variation of "tell me"
-                    if (input.Equals("tell me", StringComparison.OrdinalIgnoreCase) ||
-                        input.Equals("tell me more", StringComparison.OrdinalIgnoreCase) ||
-                        input.Equals("expand", StringComparison.OrdinalIgnoreCase))
+                    // Simple NLP: Check for follow-up intent phrases within the input
+                    if (normalizedInput.Contains("tell me") || normalizedInput.Contains("expand") || normalizedInput.Contains("more info"))
                     {
-                        // Verify if there is a previous topic stored to talk about
+                        // Verify if there is a previous topic stored to talk about 
                         if (!string.IsNullOrEmpty(_lastTopic) && _topics.TryGetValue(_lastTopic, out List<string>? dynamicText))
                         {
                             string infoResponse = dynamicText[random.Next(dynamicText.Count)];
@@ -234,21 +211,61 @@ namespace Chatbot
                             AddBotMessage($"{_botName}: What topic would you like to hear about first? (password safety, phishing, scams, or privacy)");
                         }
                     }
-                    // Regular topic check
-                    else if (_topics.TryGetValue(input, out List<string>? specificText))
-                    {
-                        _lastTopic = input; // Save this topic context for follow-up questions
-                        string infoResponse = specificText[random.Next(specificText.Count)];
-                        AddBotMessage($"{_botName}: {infoResponse}");
-                    }
                     else
                     {
-                        AddBotMessage($"{_botName}: I didn't quite understand that. Please try asking about password safety, phishing, scams, or privacy.");
+                        // Simple NLP: Scan the input text to see if it contains any of our topic keywords
+                        string matchedTopic = _topics.Keys.FirstOrDefault(topic => normalizedInput.Contains(topic)) ?? string.Empty;
+
+                        if (!string.IsNullOrEmpty(matchedTopic))
+                        {
+                            _lastTopic = matchedTopic; // Save this topic context for follow-up questions 
+                            List<string> specificText = _topics[matchedTopic];
+                            string infoResponse = specificText[random.Next(specificText.Count)];
+                            AddBotMessage($"{_botName}: {infoResponse}");
+                        }
+                        else
+                        {
+                            AddBotMessage($"{_botName}: I didn't quite understand that. Please try asking about password safety, phishing, scams, or privacy.");
+                        }
                     }
                     break;
             }
         }
 
+        // NLP HELPER: Removes basic punctuation and normalizes text casing
+        private string CleanInputForNLP(string input)
+        {
+            if (string.IsNullOrEmpty(input)) return string.Empty;
+
+            char[] punctuation = { '.', ',', '!', '?', ';', ':', '-' };
+            string clean = input.ToLower().Trim();
+            foreach (char p in punctuation)
+            {
+                clean = clean.Replace(p.ToString(), "");
+            }
+            return clean;
+        }
+
+        // NLP HELPER: Strips away common filler sentence structures to isolate the name
+        private string ExtractName(string normalized, string original)
+        {
+            string[] fillers = { "my name is ", "i am called ", "i am ", "call me " };
+            foreach (string filler in fillers)
+            {
+                if (normalized.StartsWith(filler))
+                {
+                    // Return the remaining part of the original string to preserve capitalisationreturn original.
+                    original.Substring(filler.Length).Trim();
+
+
+                }
+
+            }
+            // Return untouched if no fillers matched
+           return original;
+            
+        }
+              
         // HELPER METHOD TO SAFELY CALL THE DELEGATE
         protected virtual void OnChatSessionEnded()
         {
